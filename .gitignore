@@ -1,0 +1,24 @@
+# Node.js related
+node_modules/
+
+# TypeScript build output
+dist/
+
+# Editor/IDE specific
+.vscode/
+.idea/
+
+# Environment variables
+.env
+
+# Dependency lock files
+package-lock.json
+yarn.lock
+bun.lockb
+
+# Logs
+logs/
+npm-debug.log*
+yarn-error.log
+node_modules
+node_modules
