@@ -1,4 +1,3 @@
-import { client } from '../../../index';
 import { RegisterType, SlashCommand } from '../../../handler';
 import { type ChatInputCommandInteraction, Colors, EmbedBuilder, GuildMember, MessageFlags, PermissionFlagsBits, SlashCommandBuilder } from 'discord.js';
 import User, { AccessTier } from '../../../schemas/user';

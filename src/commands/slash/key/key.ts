@@ -1,12 +1,9 @@
-import { client } from '../../../index';
 import { RegisterType, SlashCommand } from '../../../handler';
-import { type ChatInputCommandInteraction, Colors, EmbedBuilder, MessageFlags, SlashCommandBuilder, TextChannel } from 'discord.js';
+import { type ChatInputCommandInteraction, Colors, EmbedBuilder, MessageFlags, SlashCommandBuilder } from 'discord.js';
 import { checkAccess } from '../../../utils/checkAccess';
 import puppeteer from 'puppeteer-extra';
 import StealthPlugin from 'puppeteer-extra-plugin-stealth';
-import User, { IUser } from '../../../schemas/user';
-import { EmbedPaginator } from '../../../handler/utils/EmbedPaginator';
-import { PaginatorButtonType, type PaginatorPage } from '../../../handler/types/Paginator';
+import User from '../../../schemas/user';
 import { safeReply } from '../../../utils/safeReply';
 
 puppeteer.use(StealthPlugin());
