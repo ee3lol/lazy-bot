@@ -6,7 +6,7 @@ export default new Event({
   once: true,
   async execute(client: ExtendedClient): Promise<void> {
     client.user?.setStatus(PresenceUpdateStatus.Online);
-    client.user?.setActivity('discord.gg/lazyinc', { type: ActivityType.Watching });
+    client.user?.setActivity('discord.gg/galaxyinc', { type: ActivityType.Watching });
   
   },
 });

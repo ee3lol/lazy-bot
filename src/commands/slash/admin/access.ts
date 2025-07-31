@@ -6,6 +6,7 @@ const RESELLER_ROLE = "1387501252992307322";
 
 export default new SlashCommand({
   registerType: RegisterType.Guild,
+  allowedRoles: ['1385996799918997685'],
 
   data: new SlashCommandBuilder()
     .setName('access')

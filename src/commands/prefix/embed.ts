@@ -187,7 +187,7 @@ function createProductsEmbed(): EmbedBuilder {
         value: '> <:arrowright:1387654610742939668> Fully supports brands like ASUS, MSI, ASRock, Dell, Lenovo, Corsair, EVGA, Gigabyte, and more.'
       }
     )
-    .setFooter({ text: 'Lazy Inc. | Premium Products' })
+    .setFooter({ text: 'Galaxy Ince. | Premium Products' })
 }
 
 // Function to create the reseller embed
@@ -206,7 +206,7 @@ function createResellerEmbed(): EmbedBuilder {
         value: '> <:arrowright:1387654610742939668> $150 (Generate unlimited amount of keys)'
       }
     )
-    .setFooter({ text: 'Lazy Inc. | Reseller Program' })
+    .setFooter({ text: 'Galaxy Ince. | Reseller Program' })
 }
 
 // Function to create the free trial embed
@@ -225,7 +225,7 @@ function createFreeTrialEmbed(): EmbedBuilder {
         value: '> <:arrowright:1387654610742939668> To claim it, open a ticket in ⁠support and request it.'
       }
     )
-    .setFooter({ text: 'Lazy Inc. | Free Trials' })
+    .setFooter({ text: 'Galaxy Ince. | Free Trials' })
 }
 
 // Function to create the support embed
@@ -240,7 +240,7 @@ function createSupportEmbed(): EmbedBuilder {
         value: 'Click the button below to create a support ticket. Our team will assist you as soon as possible.'
       }
     )
-    .setFooter({ text: 'Lazy Inc. Support' });
+    .setFooter({ text: 'Galaxy Ince. Support' });
 }
 
 // Function to create the key system explanation embed
@@ -267,7 +267,7 @@ function createKeyEmbed(): EmbedBuilder {
         value: '> <:arrowright:1387654610742939668> 15-minute cooldown between key generations\n> <:arrowright:1387654610742939668> Helps prevent abuse of the system'
       }
     )
-    .setFooter({ text: 'Lazy Inc. | Key Management System' });
+    .setFooter({ text: 'Galaxy Ince. | Key Management System' });
 }
 
 // Function to create the HWID reset explanation embed
@@ -294,5 +294,5 @@ function createHwidEmbed(): EmbedBuilder {
         value: '> <:arrowright:1387654610742939668> Only the key owner can reset its HWID\n> <:arrowright:1387654610742939668> Limited to one reset per key\n> <:arrowright:1387654610742939668> Contact support if you need assistance'
       }
     )
-    .setFooter({ text: 'Lazy Inc. | Hardware ID Management' });
+    .setFooter({ text: 'Galaxy Ince. | Hardware ID Management' });
 }
