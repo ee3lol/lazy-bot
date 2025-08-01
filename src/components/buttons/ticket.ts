@@ -25,6 +25,18 @@ export default new Button({
 
   async execute(interaction: ButtonInteraction): Promise<void> {
     if (!interaction.channel || !interaction.guild) return;
+    
+    // Check if user has the required role
+    const requiredRoleId = '1385996799918997685';
+    const member = await interaction.guild.members.fetch(interaction.user.id);
+    
+    if (!member.roles.cache.has(requiredRoleId)) {
+      await interaction.reply({
+        content: 'You do not have permission to close tickets.',
+        flags: [MessageFlags.Ephemeral],
+      });
+      return;
+    }
 
     try {
       // Check if this is actually a ticket channel
